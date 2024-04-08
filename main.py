@@ -15,7 +15,6 @@ current_time = datetime.now().strftime("%H:%M:%S")
 green_check = "✅"
 red_cross = "❌"
 load_emoji = "🔄"
-ignored_channel_id = 1211798470126604328
 deleted_messages = {}
 bot = commands.Bot(command_prefix='@', self_bot=True)
 bot.remove_command('help')
